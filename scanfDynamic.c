@@ -27,13 +27,13 @@ int main(){
 void printer(struct Data data){
 	int sign=data.sign;
 	if (sign==3){//string
-		printf("%s",data.string);
+		printf("it is a string %s",data.string);
 		}
 	else if (sign==1 || sign==-1){
-		printf("%d",data.number);
+		printf("<int> %d*2 = %d",data.number,data.number*2);
 		}
 	else if(sign==-2 || sign==2){
-		printf("%f",data.number2);
+		printf("<float> %f/2 = %f",data.number2,data.number2/2);
 	}
 }
 int check(char c[],struct Data *data){
