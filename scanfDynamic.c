@@ -27,7 +27,7 @@ int main(){
 void printer(struct Data data){
 	int sign=data.sign;
 	if (sign==3){//string
-		printf("it is a string %s",data.string);
+		printf("<string> %s",data.string);
 		}
 	else if (sign==1 || sign==-1){
 		printf("<int> %d*2 = %d",data.number,data.number*2);
