@@ -33,6 +33,7 @@ void printer(struct Data data){
 		printf("<int> %d*2 = %d",data.number,data.number*2);
 		}
 	else if(sign==-2 || sign==2){
+		//float
 		printf("<float> %f/2 = %f",data.number2,data.number2/2);
 	}
 }
